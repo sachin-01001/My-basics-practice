@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*background-blend-mode(img+color)*/
+
+.Box {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/groot.jpeg),red;
+     background-size: cover;
+     background-blend-mode: multiply;
+} 
+
+
+/*background-blend-mode (img+multi color)*/
+
+/* .Box {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/Natural.jpeg), linear-gradient(blue,yellow,green);
+     background-size: cover;
+     background-blend-mode: multiply;
+}   */
+
+
+
+ /*background-blend-mode(img+img)*/
+
+/* .Box {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/Natural.jpeg),url(/img/groot.jpeg);
+     background-size: cover;
+     background-blend-mode: multiply;
+} */
+
+
+
+
+/*background-blend-mode(img+img+multi color)*/
+
+/*.Box {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/Natural.jpeg),url(/img/groot.jpeg),linear-gradient(blue,yellow,green);
+     background-size: cover;
+     background-blend-mode: multiply;
+}*/
