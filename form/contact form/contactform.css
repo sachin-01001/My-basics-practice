@@ -1,0 +1,25 @@
+  h1{
+            background-color: yellowgreen;
+            border: 1px solid white;
+
+          }
+          body{
+            background-color: lightgray;
+            border: 1px solid black;
+            padding: 5px;
+            margin:  20px
+          }
+h1>p{
+  font-size:small;
+}
+input[type="submit"]{
+  background-color: yellowgreen;
+  border-radius: 1px;
+  border: none;
+  
+}
+
+
+
+
+    

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex in css</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+            margin: 2px;
+        }
+
+        .a-1,
+        .a-2,
+        .a-3 {
+            border: 3px groove rgb(255, 255, 255);
+            border-radius: 5px;
+            width: 30%;
+            margin: 10px;
+
+        }
+
+        h1 {
+            color: black;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+        }
+
+        img {
+            width: 100%;
+            align-items: center;
+        }
+
+        .a-1,
+        .a-3 {
+            align-self: flex-end;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="a-1">
+            <img src="./img/download (1).jpeg" alt="">
+            <h1 text-align="center"> Seamlessly visualize quality</h1>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum nihil accusamus deserunt atque quod
+                quaerat, tempore quas reprehenderit exercitationem voluptas praesentium impedit commodi. Eius corrupti
+                neque assumenda recusandae voluptatibus quidem?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis esse sapiente soluta fugiat sequi
+                cupiditate necessitatibus rerum consectetur, ipsa tempore! Praesentium iure voluptatibus nisi dolorum
+                voluptate. Eaque recusandae ab soluta.</p>
+
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+        <br>
+        <div class="a-2">
+            <img src="./img/sa.jpg" alt="" width="100px">
+            <h1> Seamlessly visualize quality</h1>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum nihil accusamus deserunt atque quod
+                quaerat, tempore quas reprehenderit exercitationem voluptas praesentium impedit commodi. Eius corrupti
+                neque assumenda recusandae voluptatibus quidem?</p>
+
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+        <br>
+        <div class="a-3">
+            <img src="./img/download.jpeg">
+            <h1> Seamlessly visualize quality</h1>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum nihil accusamus deserunt atque quod
+                quaerat, tempore quas reprehenderit exercitationem voluptas praesentium impedit commodi. Eius corrupti
+                neque assumenda recusandae voluptatibus quidem?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque nostrum, iusto numquam laboriosam
+                perferendis enim harum culpa distinctio voluptas porro dolor sapiente fugit aliquid id. Asperiores
+                cumque maxime hic similique.</p>
+
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+        <br>
+        <div class="a-1">
+            <img src="./img/download (1).jpeg">
+            <h1 text-align="center"> Seamlessly visualize quality</h1>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum nihil accusamus deserunt atque quod
+                quaerat, tempore quas reprehenderit exercitationem voluptas praesentium impedit commodi. Eius corrupti
+                neque assumenda recusandae voluptatibus quidem?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis esse sapiente soluta fugiat sequi
+                cupiditate necessitatibus rerum consectetur, ipsa tempore! Praesentium iure voluptatibus nisi dolorum
+                voluptate. Eaque recusandae ab soluta.</p>
+
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+        <br>
+        <div class="a-2">
+            <img src="./img/sa.jpg" width="100px">
+            <h1> Seamlessly visualize quality</h1>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum nihil accusamus deserunt atque quod
+                quaerat, tempore quas reprehenderit exercitationem voluptas praesentium impedit commodi. Eius corrupti
+                neque assumenda recusandae voluptatibus quidem?</p>
+
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+        <br>
+        <div class="a-3">
+            <img src="./img/download.jpeg">
+            <h1> Seamlessly visualize quality</h1>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum nihil accusamus deserunt atque quod
+                quaerat, tempore quas reprehenderit exercitationem voluptas praesentium impedit commodi. Eius corrupti
+                neque assumenda recusandae voluptatibus quidem?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque nostrum, iusto numquam laboriosam
+                perferendis enim harum culpa distinctio voluptas porro dolor sapiente fugit aliquid id. Asperiores
+                cumque maxime hic similique.</p>
+
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+    </div>
+</body>
+
+</html>

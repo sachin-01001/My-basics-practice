@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic form</title>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <labale>First Name:</labale>
+            <input type="text" name="fname" value="">
+            <br><br>
+            <label>Last Name:</label>
+            <input type="text" name="lname" value="">
+            <br><br>
+            <Lable>Gender</Lable>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">other
+            <br> <br>
+            <label>Email:</label>
+            <input type="text" name="email" value="">
+            <br><br>
+            <label>Phone:</label>
+            <input type="text" name="phone" value="">
+            <br><br>
+            <label>Address:</label>
+            <textarea type="address" name="address" value="" cols="20" rows="4"> </textarea>
+            <br><br>
+            <label>Password:</label>
+            <input type="password" name="password">
+            <br> <br>
+            <label>Re-enter Password</label>
+            <input type="password" name="re-enter-password">
+            <br><br>
+            <input type="submit" value="submit">
+
+        </fieldset>
+        <fieldset>
+            <legend>table marksheet</legend>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th> Theory</th>
+                        <th>Practrical</th>
+                        <th> TOtal Marks</th>
+                        <th>Grades</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>English</td>
+                        <td>86</td>
+                        <td>20</td>
+                        <td>96</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>72</td>
+                        <td>24</td>
+                        <td>86</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Science</td>
+                        <td>63</td>
+                        <td>28</td>
+                        <td>91</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td> Computer Science</td>
+                        <td>81</td>
+                        <td>16</td>
+                        <td>78</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td> History</td>
+                        <td>52</td>
+                        <td>23</td>
+                        <td>75</td>
+                        <td>B</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <th colspan="5">Result:Pass</th>
+                </tfoot>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Payment Information</legend>
+            <lable> Card Holder Name:</lable>
+            <input type="text" name="card_holder_name" value="">
+            <br> <br>
+            <lable>Card Type:</lable>
+            <select name="card_type">
+                <option value="">Select</option>
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="AmericanExpress">AmericanExpress</option>
+                <option value="Discover">Discover</option>
+            </select>
+            <br> <br>
+            <label>Card No:</label>
+            <input type="text" name="card_number" value="">
+            <br> <br>
+            <label>Expiry Date:</label>
+            <input type="number" placeholder="MM" id="month" maxlength=2 /> /
+            <input type="number" placeholder="YY" id="year" maxlength=2 />
+            <br> <br>
+            <label>CVV:</label>
+            <input type="number" name="cvv" value="" id="cvv" maxlength="3" />
+            <br> <br>
+            <input type="submit" value="Paynow">
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

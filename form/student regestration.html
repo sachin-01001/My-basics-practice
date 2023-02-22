@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student registration form</title>
+</head>
+<body bgcolor="lightblue">
+    <div class="container">
+    <h1> <u> Student Registration Form </u> </h1>
+    </div>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="name" id="name">
+        <br> <br>
+        <label>Father's Name:</label>
+        <input type="text" name="father" id="father">
+        <br> <br>
+        <label>Mother's Name:</label>
+        <input type="text" name="mother" id="mother">
+        <br><br>
+        <label>Phone Number:</label>
+        <input type="text" name="phone" id="phone">
+        <br><br>
+        <label>Email:</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" id="male">Male
+        <input type="radio" name="gender" id="female">Female
+        <input type="radio" name="gender" id="other">other
+        <br><br>
+        <label>Address:</label>
+        <input type="text" name="address" id="address">
+        <br><br>
+        <label>Blod Group:</label>
+        <select name="bload-group">
+            <option name="bload-group" value="A+">A+</option>
+            <option name="bload-group" value="B+">B+</option>
+            <option name="bload-group" value="ab+">AB+</option>
+            <option name="bload-group" value="A-">A-</option>
+            <option name="bload-group" value="b-">B-</option>
+            <option name="bload-group" value="AB-">AB-</option>
+            <option name="bload-group" value="o">o</option>
+        </select>
+        <br><br>
+        <label>Department:</label>
+        <input type="radio" name="department" value="CSE">CSE
+        <input type="radio" name="department" value="EEE">EEE
+        <input type="radio" name="department" value="MBA">MBA
+        <input type="radio" name="department" value="BBA">BBA
+        <br><br>
+        <label>course:</label>
+        <input type="radio" name="c">C
+        <input type="radio" name="C++">C++
+        <input type="radio" name="JAVA">JAVA
+        <input type="radio" name="AI">AI
+        <input type="radio" name="Machine Learning">Machine Learning
+        <br><br>
+     <lable> Photo</lable>
+     <input type="file">
+     <br><br>
+     <input type="submit">
+     <input type="reset">
+    </form>
+</body>
+</html>
