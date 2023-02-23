@@ -48,3 +48,101 @@
      background-size: cover;
      background-blend-mode: multiply;
 }*/
+
+
+
+
+
+
+/*background-blend-mode(img+img) property=screen*/
+
+/*.Box {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/Natural.jpeg),url(/img/groot.jpeg);
+     background-size: cover;
+     background-blend-mode: screen;
+}*/
+
+
+
+
+/*background-blend-mode(img+img) property=luminosity*/
+
+/*.Box {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/Natural.jpeg),url(/img/groot.jpeg);
+     background-size: cover;
+     background-blend-mode: luminosity;
+}*/
+
+
+
+
+
+
+/*background-blend-mode(img+img) property=overlay*/
+
+/*.Box {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/Natural.jpeg),url(/img/groot.jpeg);
+     background-size: cover;
+     background-blend-mode: overlay ;
+}*/  
+
+
+
+/*background-blend-mode(img+img) property=darken*/
+
+/*.Box {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/Natural.jpeg),url(/img/groot.jpeg);
+     background-size: cover;
+     background-blend-mode: darken;
+}*/
+
+
+
+
+
+/*background-blend-mode(img+img) property=lighten*/
+/*.Box {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/Natural.jpeg),url(/img/groot.jpeg);
+     background-size: cover;
+     background-blend-mode: lighten;
+}*/
+
+
+
+
+
+/*background-blend-mode(img+img) property=color-dodge*/
+
+/*.Box {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/Natural.jpeg),url(/img/groot.jpeg);
+     background-size: cover;
+     background-blend-mode: color-dodge;
+}*/
+
+
+
+
+
+
+/*background-blend-mode(img+img) property=saturation*/
+
+/*.Box {
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/Natural.jpeg),url(/img/groot.jpeg);
+     background-size: cover;
+     background-blend-mode: saturation;
+}*/
+ 
