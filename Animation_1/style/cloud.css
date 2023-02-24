@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ .box{
+    width: 100%;
+    height: 250px;
+   /* border: 2px solid black;*/
+    position: relative;
+    margin-top: 50px;
+    overflow: hidden;
+ }
+ .sun{
+    width: 120px;
+    height: 120px;
+    background: rgba(255,165,0,0.6);
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: -15px;
+    animation: sun 5s ease-in-out;
+ }
+
+
+ .cloud1 {
+   width: 200px;
+   height: 120px;
+   position: absolute;
+   top: 20px;
+   left: -10px;
+   opacity: 0.8;
+   animation: cloud1 5s linear;
+}
+
+.cloud2 {
+   width: 200px;
+   height: 120px;
+   position: absolute;
+   top: 30px;
+   left: 400px;
+   opacity: 0.8;
+   animation: cloud2 2.5s ease-in;
+   animation-delay: 2.5s;
+}
+
+.cloud3 {
+   width: 200px;
+   height: 120px;
+   position: absolute;
+   top: 50px;
+   right: -10px;
+   opacity: 0.8;
+   animation: cloud3 5s ease-out;
+   animation-delay: ;
+}
+  
+
+@keyframes cloud1 {
+   from {
+      top: 20px;
+      left: -10px;
+   }
+    to{
+      top: 20px;
+      left: 110%; 
+   }
+}
+
+@keyframes cloud2 {
+   from {
+      top: 30px;
+   left: 400px;
+   }
+    to{
+      top: 30px;
+      left: 110%; 
+   }
+}
+
+
+@keyframes cloud3 {
+   from {
+      top: 50px;
+   right: -10px;
+   }
+    to{
+      top: 30px;
+    right: 110%; 
+   }
+}
+
+@keyframes sun{
+   from{
+      top: 50px;
+      left: -15px;
+      background: rgba(255,165,0,0.7);
+   }
+   to{
+      top: 15px;
+       left: 110%;
+       background: rgba(255,165,0,9);
+   }
+}

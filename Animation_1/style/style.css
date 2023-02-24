@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    margin: auto;
+    position: relative;
+}
+
+.in_box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 2px solid chocolate;
+    animation-name: box-1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+@keyframes box-1 {
+    0%{
+        top: 0px;
+        left: 0px;
+        background-color: red;
+    }
+    25%{
+        top: 0px;
+        left: 400px;
+        background-color: yellow;
+    }
+    50%{
+        top: 400px;
+        left: 400px;
+        background-color: blueviolet;
+    }
+    75%{
+        top: 400px;
+        left: 0px;
+        background-color: green;
+    }
+
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: red;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
