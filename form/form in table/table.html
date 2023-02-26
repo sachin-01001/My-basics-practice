@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+    <title>table</title>
+    <style>
+      table{
+            margin: auto;
+            width: 500px;
+            border-collapse: collapse;
+           }
+        table td{
+            border: black 2px solid;
+        }
+      
+      .table tr:nth-child(even){
+       background-color: #EFFFD2;
+        }
+
+       .table tr:nth-child(odd){
+        background-color: #E4FFB7;
+       }
+       .header{
+        text-align: center;
+        font-weight: bolder;
+        background-color: seagreen;
+        border: 2px solid black;
+        color: white;
+       }
+    </style>
+</head>
+<body>
+    <table class="table">
+        <tr> 
+            <td class="header" colspan="6">Student Mark Sheet </td>
+        </tr>
+       
+            <tr class="main">
+                <td>Name</td>
+                <td>Math</td>
+                <td>English</td>
+                <td>Science</td>
+                <td>physics</td>
+                <td>Computer Science</td>
+            </tr>
+    
+            <tr class="altrow">
+                <td>Sachin</td>
+                <td>72</td>
+                <td>86</td>
+                <td>89</td>
+                <td>63</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>Rakesh</td>
+                <td>81</td>
+                <td>79</td>
+                <td>53</td>
+                <td>91</td>
+                <td>74</td>
+            </tr>
+            <tr>
+                <td>Vikas</td>
+                <td>90</td>
+                <td>78</td>
+                <td>70</td>
+                <td>87</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>Shradha</td>
+                <td>58</td>
+                <td>67</td>
+                <td>75</td>
+                <td>81</td>
+                <td>93</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>85</td>
+                <td>87</td>
+                <td>88</td>
+                <td>92</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>Tony</td>
+                <td>84</td>
+                <td>81</td>
+                <td>74</td>
+                <td>89</td>
+                <td>83</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
